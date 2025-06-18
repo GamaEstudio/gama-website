@@ -6,7 +6,7 @@ export default function PremiumDesignCard() {
         <div className="relative group max-w-sm mx-auto my-5">
             {/* Glow animado solo al hacer hover */}
 
-            <div className="absolute -inset-0.5 blur-md opacity-0 scale-95 group-hover:scale-[99%] z-0 bg-gradient-to-r from-amber-400 via-fuchsia-500 to-purple-600 transition-all duration-500 ease-in-out group-hover:opacity-60 gradient-glow" />
+            <div className="absolute inset-0 blur-md scale-75 group-hover:scale-100 bg-gradient-to-l from-amber-400 via-fuchsia-500 to-purple-600 transition-all duration-200 ease-in-out gradient-glow" />
 
             {/* Contenido visible */}
             <div className="relative z-10 bg-[#1A1A1D] rounded-2xl p-6 text-white">
