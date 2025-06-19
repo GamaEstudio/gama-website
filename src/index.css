@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+  --color-gama-primary: #683EE6;
+  --color-gama-secondary: #CBFD02;
+  --color-gama-black: #0A0A0E;
+}
+
+@layer utilities {
+  .animate-gradient-x {
+    background-size: 400% 400%;
+    animation: gradient-x 4s ease-in-out infinite;
+  }
+
+ @keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-glow {
+  background-size: 400% 400%;
+  animation: gradient-x 1.5s ease-in-out infinite;
+}
+
+}
