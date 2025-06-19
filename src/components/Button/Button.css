@@ -1,0 +1,35 @@
+.btn-solido {
+	background-color: var(--color-gama-black);
+	color: white;
+	border: 1px solid var(--color-gama-secondary);
+	transition: background-color 0.7s ease, filter 0.2s ease, transform 0.2s ease, border 0.2s ease;
+}
+
+.btn-solido:hover {
+	background-color: var(--color-gama-primary);
+	border: 2px solid var(--color-gama-secondary);
+}
+
+.btn-solido:active {
+	filter: brightness(0.85);
+	transform: scale(0.99);
+}
+
+/* ---------------- DEGRADADO ---------------- */
+
+.btn-degradado {
+	color: var(--color-gama-bluedark);
+	background: linear-gradient(to right, var(--color-gama-secondary) 50%, var(--color-gama-primary) 100%);
+	background-size: 200% 100%;
+	background-position: 100% 0;
+	transition: background-position 0.8s ease, filter 0.2s ease, transform 0.2s ease;
+}
+
+.btn-degradado:hover {
+	background-position: 0 0;
+}
+
+.btn-degradado:active {
+	filter: brightness(0.85);
+	transform: scale(0.99);
+}
