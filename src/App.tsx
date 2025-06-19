@@ -1,5 +1,8 @@
 import PremiumDesignCard from "./components/PremiumDesignCard"
 import Button from "./components/Button/Button"
+
+import { FaArrowRight } from "react-icons/fa6"
+
 import "./App.css"
 
 function App() {
@@ -8,7 +11,9 @@ function App() {
 			<PremiumDesignCard />
 			<PremiumDesignCard />
 			<div>
-				<Button className="mb-4">Quiero destacar YA →</Button>
+				<Button className="mb-4">
+					Quiero destacar YA <FaArrowRight />
+				</Button>
 				<Button opcion="2">Ver casos de éxito</Button>
 			</div>
 		</div>
