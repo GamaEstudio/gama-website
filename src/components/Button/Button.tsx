@@ -10,7 +10,7 @@ const Button = ({ children, onClick, opcion = "1", className = "" }: ButtonProps
 				sm:w-55 sm:h-13 sm:text-md
 				lg:w-70 lg:h-15 lg:text-xl
 				flex items-center justify-center gap-2.5 
-				rounded-[1rem] font-black px-4 py-2 mx-2 cursor-pointer font-2
+				rounded-[1rem] font-black px-4 py-2 cursor-pointer font-2
 				${opcion === "1" ? "btn-degradado" : "btn-solido"}
 				${className}
 			`}

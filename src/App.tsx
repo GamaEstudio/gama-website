@@ -8,10 +8,12 @@ import { FiUsers } from "react-icons/fi"
 import { MdOutlineDiamond } from "react-icons/md"
 
 import "./App.css"
+import NavBar from "./components/NavBar/NavBar"
 
 function App() {
 	return (
-		<div className="flex gap-5 flex-wrap">
+		<div className="flex gap-5 flex-wrap relative pt-[150px] ">
+			<NavBar />
 			<PremiumDesignCard />
 			<PremiumDesignCard />
 			<div>
