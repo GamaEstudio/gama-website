@@ -1,8 +1,7 @@
 import React from "react"
 
-export type ButtonProps = {
+export type SquareIconProps = {
 	children: React.ReactNode
 	onClick?: () => void
-	opcion?: "1" | "2"
 	className?: string
 }

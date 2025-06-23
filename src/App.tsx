@@ -1,7 +1,11 @@
 import PremiumDesignCard from "./components/PremiumDesignCard"
 import Button from "./components/Button/Button"
+import SquareIcon from "./components/SquareIcon/SquareIcon"
 
 import { FaArrowRight } from "react-icons/fa6"
+import { HiMiniArrowTrendingUp } from "react-icons/hi2"
+import { FiUsers } from "react-icons/fi"
+import { MdOutlineDiamond } from "react-icons/md"
 
 import "./App.css"
 
@@ -16,6 +20,15 @@ function App() {
 				</Button>
 				<Button opcion="2">Ver casos de éxito</Button>
 			</div>
+			<SquareIcon>
+				<HiMiniArrowTrendingUp />
+			</SquareIcon>
+			<SquareIcon>
+				<FiUsers />
+			</SquareIcon>
+			<SquareIcon>
+				<MdOutlineDiamond />
+			</SquareIcon>
 		</div>
 	)
 }
