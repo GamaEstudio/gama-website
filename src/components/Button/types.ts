@@ -5,4 +5,5 @@ export type ButtonProps = {
 	onClick?: () => void
 	opcion?: "1" | "2"
 	className?: string
+	sizeClass?: string // <-- nueva prop opcional
 }
