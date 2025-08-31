@@ -19,7 +19,7 @@ function App() {
 	return (
 		<div className="relative">
 			<NavBar navigation={navigation} />
-			<Inicio id="inicio" className="w-full h-dvh pt-[100px] bg-amber-500" />
+			<Inicio id="inicio" className="w-full h-dvh pt-[100px]" />
 			<Servicios id="servicios" className="w-full h-dvh bg-blue-500" />
 			<Proyectos id="proyectos" className="w-full h-[200dvh] bg-red-500" />
 			<Nosotros id="nosotros" className="w-full h-[200dvh] bg-yellow-500" />

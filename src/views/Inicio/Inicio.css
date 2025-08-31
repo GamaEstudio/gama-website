@@ -1,0 +1,6 @@
+#tituloGradientInicio {
+	background: linear-gradient(to right, var(--color-gama-secondary) 23.72%, var(--color-gama-primary) 63.4%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

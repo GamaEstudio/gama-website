@@ -16,7 +16,7 @@ const NavBar = ({ navigation }: NavBarProps) => {
 
 	const handleScroll = () => {
 		const offset = window.scrollY
-		setScrolled(offset > 100)
+		setScrolled(offset > 0)
 	}
 
 	useEffect(() => {
