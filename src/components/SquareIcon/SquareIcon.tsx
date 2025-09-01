@@ -10,8 +10,7 @@ const SquareIcon = ({ children, onClick, className = "" }: SquareIconProps) => {
 				sm:w-12 sm:h-12
 				lg:w-16 lg:h-16
 				flex items-center justify-center rounded-[10px] p-2
-				bg-gradient-to-tr from-gama-primary to-gama-secondary
-				text-black
+				text-black containerSquareIcon
 				${className}
 			`}
 		>
