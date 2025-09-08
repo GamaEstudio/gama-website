@@ -69,7 +69,7 @@ const Servicios = ({ id = "", className = "" }: ServiciosProps) => {
 						)
 					})}
 				</div>
-				<div className="flex flex-wrap justify-center gap-7">
+				<div className="grid lg:grid-cols-3 gap-8">
 					{cardsServicios.map((info, index) => {
 						return <CardServicios key={index} info={info} />
 					})}

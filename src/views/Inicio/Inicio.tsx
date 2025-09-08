@@ -39,11 +39,11 @@ const Inicio = ({ id = "", className = "" }: InicioProps) => {
 						</p>
 					</div>
 				</div>
-				<div className="flex justify-center items-center gap-5 lg:gap-10 flex-wrap">
+				<div className="grid lg:grid-cols-3 gap-8">
 					{cardsInicio.map((card, index) => {
 						return (
 							<div
-								className="w-38 h-28 lg:w-56 lg:h-48 py-3 px-6 rounded-[17px] bg-white/10 backdrop-blur-[10px] border border-gama-primary shadow-[0_0_30px_-17px_rgba(203,253,2,1)] flex flex-col items-center justify-evenly"
+								className="w-full h-28 lg:h-48 py-3 px-6 rounded-[17px] bg-white/10 backdrop-blur-[10px] border border-gama-primary shadow-[0_0_30px_-17px_rgba(203,253,2,1)] flex flex-col items-center justify-evenly"
 								key={index}
 							>
 								<SquareIcon>{card.icon}</SquareIcon>
