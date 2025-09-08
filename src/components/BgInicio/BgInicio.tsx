@@ -4,11 +4,11 @@ import { NeatGradient, type NeatConfig } from "@firecms/neat"
 const config: NeatConfig = {
 	colors: [
 		{
-			color: "#0D0C15",
+			color: "#2F1C6A",
 			enabled: true,
 		},
 		{
-			color: "#2F1C6A",
+			color: "#0D0C15",
 			enabled: true,
 		},
 		{
@@ -24,7 +24,7 @@ const config: NeatConfig = {
 			enabled: true,
 		},
 	],
-	speed: 4,
+	speed: 6,
 	horizontalPressure: 3,
 	verticalPressure: 3,
 	waveFrequencyX: 0,

@@ -6,7 +6,7 @@ import "./CardServicios.css"
 
 export default function CardServicios({ info }: cardServiciosProps) {
 	return (
-		<div className="relative group w-full lg:w-84 text-left">
+		<div className="relative group w-full text-left">
 			<div className="absolute inset-0 blur-md scale-75 group-hover:scale-100 bg-gradient-to-l from-gama-secondary via-gama-red to-gama-primary transition-all duration-200 ease-in-out gradient-glow" />
 
 			<div className="relative border border-gama-primary/20 h-full z-10 bg-[#14121B] rounded-2xl p-9 text-white flex flex-col gap-6">
